@@ -5,6 +5,17 @@ header{
 header nav{
 width: 960px;
 margin: auto;
+display: flex;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+#logo{
+  padding: 8px;
 }
 main{
   background-color: gray;
