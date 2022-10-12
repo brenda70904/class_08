@@ -14,9 +14,12 @@ header nav ul {
   width: 100%;
   align-items: center;
 }
+
 #logo{
-  padding: 8px;
+ margin-top:5px;
+ margin-bottom: 5px;
 }
+
 main{
   background-color: gray;
   width: 960px;
@@ -36,6 +39,17 @@ main article{
 main article section{
   overflow: auto;
   height: 320px;
+}
+section{
+  padding-bottom: 5px;
+}
+button{
+  margin:5px;
+  padding: 5px 5px;
+  color:white;
+  background-color: black;
+  height: 30px;
+ 
 }
 footer{
   background-color: rgb(187, 178, 178);
